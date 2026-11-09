@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+# input series are not tracked; data/fetch.py downloads them
+/data/*/*.out
+/data/_archive/
+# result files written by experiment.py --save
+/results/
